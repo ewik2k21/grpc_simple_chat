@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+
+  go-app:
+    container_name: grpc_chat
+    build: .
+    ports:
+      - "50051:50051"
+
+
+
+
